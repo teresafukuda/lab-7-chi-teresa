@@ -35,3 +35,29 @@ rownames(get_guns) <- c("Female", "Male")
 
 ```
 
+I'm the collaborator (Caio) and I am going to do chi-square
+
+Is gun control perspectives (as related to access to guns) the same for males and females?
+
+Is there a significant association between sex and gun control recommendations?
+
+Is perception of gun control access independent of sex?
+
+Chi-square
+
+```{r}
+
+guns_prop <- prop.table(as.matrix(get_guns), 1)
+guns_prop
+
+# Performing Chi-Square
+
+guns_x2 <- chisq.test(get_guns)
+guns_x2
+
+
+```
+
+Recommended gvmt action on gun access differs significantly for males and females ($\chi^2$(`r guns_x2$parameter`) = ...., p <0.001)
+
+
