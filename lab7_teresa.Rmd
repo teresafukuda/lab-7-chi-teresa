@@ -10,3 +10,5 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 I'm Teresa and I'm adding some text here to see if my collaborator, Caio, can get this file. 
+
+I'm excited to travel to orlando to see my parents (Caio 2018) 
