@@ -1,0 +1,12 @@
+---
+title: "Gun Control Chi-Square"
+author: "Teresa Fukuda"
+date: "11/14/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+I'm Teresa and I'm adding some text here to see if my collaborators can get this file. 
