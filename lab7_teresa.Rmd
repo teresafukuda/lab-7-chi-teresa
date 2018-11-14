@@ -9,4 +9,4 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-I'm Teresa and I'm adding some text here to see if my collaborators can get this file. 
+I'm Teresa and I'm adding some text here to see if my collaborator, Caio, can get this file. 
